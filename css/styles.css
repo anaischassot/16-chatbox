@@ -2,6 +2,7 @@ body {
   max-width: 320px;
   margin: auto;
   background: #ddd;
+  border: 1px solid black;
 }
 
 img {
