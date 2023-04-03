@@ -8,6 +8,16 @@ body {
 img {
   display: block;
   max-width: 100%;
+header  {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  background: #AFD8CA;
+}
+
+.icone-contact {
+  max-width: 130px;
+}
 .chat-container {
   max-width: 330px;
   margin: auto;
