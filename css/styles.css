@@ -61,3 +61,18 @@ h1 {
   top: 0;
   text-align: left;
 }
+
+.chat-form {
+  background: #AFD8CA;
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  background-color: ##CCD2EA;
+}
