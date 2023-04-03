@@ -37,10 +37,16 @@ header  {
   text-align: center;
   margin-top: 25px;
 }
+
+h1,
+p {
+  color: #053F00;
+}
+
 .chat-container {
   max-width: 330px;
   margin: auto;
-  margin-top: 10px;
+  margin-top: 25px;
   box-shadow: 0 0 5px #3333;
   padding: 0;
   display: flex;
@@ -71,6 +77,7 @@ header  {
 }
 
 h1 {
+  font-size: 27px;
   margin: 0;
   padding: 10px 0 10px 10px;
   box-sizing: border-box;
@@ -93,5 +100,7 @@ h1 {
 }
 
 button {
-  background-color: ##CCD2EA;
+  background-color: #CCD2EA;
+  padding: 5px 10px;
+  border-radius: 10px;
 }
