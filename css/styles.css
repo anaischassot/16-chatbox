@@ -39,8 +39,34 @@ header  {
 }
 
 h1,
-p {
+p,
+button {
   color: #053F00;
+}
+
+p {
+  font-family: 'Crimson Pro', serif;
+  font-size: 17px;
+}
+
+h1,
+.info-time,
+button {
+  font-family: 'Heebo', sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 27px;
+  font-weight: 600;
+  margin: 0;
+  padding: 10px 0 10px 20px;
+  box-sizing: border-box;
+  background: #AFD8CA;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  text-align: left;
 }
 
 .chat-container {
@@ -76,18 +102,6 @@ p {
   background: #CCD2EA;
 }
 
-h1 {
-  font-size: 27px;
-  margin: 0;
-  padding: 10px 0 10px 10px;
-  box-sizing: border-box;
-  background: #AFD8CA;
-  width: 100%;
-  position: sticky;
-  top: 0;
-  text-align: left;
-}
-
 .chat-form {
   background: #AFD8CA;
   width: 100%;
@@ -101,6 +115,7 @@ h1 {
 
 button {
   background-color: #CCD2EA;
+  font-size: 15px;
   padding: 5px 10px;
   border-radius: 10px;
 }
