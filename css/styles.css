@@ -2,7 +2,7 @@ body {
   max-width: 320px;
   margin: auto;
   background: #6A8A88;
-  border: 1px solid black;
+  border: 1px solid #AFD8CA;
 }
 
 img {
@@ -28,6 +28,8 @@ header  {
   flex-direction: row;
   align-items: flex-end;
   background: #AFD8CA;
+  position: sticky;
+  top: 0;
 }
 
 .icone-contact {
@@ -65,8 +67,6 @@ h1 {
   box-sizing: border-box;
   background: #AFD8CA;
   width: 100%;
-  position: sticky;
-  top: 0;
   text-align: left;
 }
 
@@ -102,13 +102,16 @@ h1 {
   background: #CCD2EA;
 }
 
+footer {
+  position: sticky;
+  bottom: 0;
+}
+
 footer div {
   background: #AFD8CA;
   width: 100%;
   padding: 15px;
   box-sizing: border-box;
-  position: sticky;
-  bottom: 0;
   display: flex;
   justify-content: space-between;
 }
